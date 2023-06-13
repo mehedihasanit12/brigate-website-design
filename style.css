@@ -27,3 +27,18 @@ h1 h2 h3 h4 h5 h6 {
     padding-right: 15px;
     margin: auto;
 }
+.email{
+    width: 482px;
+    float: left;
+}
+.phone {
+    width: 210px;
+    float: left;
+}
+.social {
+    width: 200px;
+    float: left;
+}
+.topbarwrapper {
+    overflow: hidden;
+}

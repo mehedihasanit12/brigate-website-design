@@ -17,28 +17,79 @@ h1 h2 h3 h4 h5 h6 {
 .phone>i, .email>i{
     color: #FF5200;
 }
-.topbar{
+.topbarmain{
     background-color: #f5f5f5;
 }
 .container{
     width: 1140px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding-left:15px ;
     padding-right: 15px;
     margin: auto;
 }
-.email{
-    width: 482px;
+.email {
+    width: 753px;
     float: left;
+    padding: 14px 10px;
+    border-left: 1px solid #ddd;
 }
+
 .phone {
     width: 210px;
     float: left;
+    padding: 14px 10px;
+    border-left: 1px solid #ddd;
 }
 .social {
-    width: 200px;
+    width: 135px;
     float: left;
+    transition: 0.3s;
 }
 .topbarwrapper {
     overflow: hidden;
+}
+.social a {
+    display: block;
+    float: left;
+    color: #2b2b2b;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+}
+.social a:first-child{
+    border-left: 1px solid #ddd;
+}
+.social a>i:hover{
+    color: #FF5200;
+}
+
+.primarywrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+}
+
+ul.mainmenu {
+    list-style: none;
+}
+
+.menu {
+    width: 990px;
+    float: left;
+}
+
+ul.mainmenu li {
+    float: left;
+}
+
+ul.mainmenu li a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: oswald;
+    display: block;
 }
